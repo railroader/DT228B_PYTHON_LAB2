@@ -18,6 +18,7 @@ class MyEncryptor():
 
 # METHOD TO SHA1 ENCODE OBJECT - WHICH CAN BE A FILE OR A STRING
 # FIRST CHECKS IF THE ARGUMENT IS A FILE
+#Also casts the value of the argument to a string
 # IF ITS NOT A FILE IT CHECKS IF ITS A STRING
 # IF IT IS A STRING THEN IT SHA1 ENCODES THE STRING
 # OTHERWISE IT TREATS THE ARGUMENT AS A FILE AND SHA1 ENCODES THE FILE
@@ -46,12 +47,9 @@ class MyEncryptor():
 			if not text:
 				return "No String passed to method"
 			else:
-				if not text:
-					return "No String passed to method"
-				else:
-					m = hashlib.sha256()
-					m.update(text.encode('utf-8'))
-					return (m.hexdigest())
+				m = hashlib.sha256()
+				m.update(text.encode('utf-8'))
+				return (m.hexdigest())
 		else:
 			BLOCKSIZE = 65536
 			hasher = hashlib.sha256()
