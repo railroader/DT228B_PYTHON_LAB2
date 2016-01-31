@@ -1,4 +1,4 @@
-# DT228B_PYTHON_LAB2
+# DT228B LAB SHEET 2
 ######Python Lab for college
 
 In this lab you will be required to write a Python program for checking the integrity of a string or file. 
