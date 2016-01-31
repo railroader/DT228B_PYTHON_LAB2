@@ -28,8 +28,11 @@ ________________________________________________________________________________
 ###### Installing library
 Navigate to downloaded files in terminal
 
-Run in terminal 'sudo python setup.py install'
+Run in terminal 
 
+```python
+sudo python setup.py install'
+```
 
 Then add the pysha3 library as an external reference in PyCharm and its ready to use or you can copy the _sha3 folder into you project.
 Located : pysha3-0.3\Modules
