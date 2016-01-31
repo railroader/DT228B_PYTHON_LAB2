@@ -12,7 +12,8 @@ My first attempt using Pyhton, i come from a .NET background favourite language 
 Also im not familiar with using GIT HUB, I come from a Team Foundation Server background so a bit of a learning curve.
 
 I choose Pycharm EDU Edition as my IDE.
-I have run used the following Operating Systems just to see what differs here with developing in Python
+
+I have used the following Operating Systems just to see what differs here with developing in Python
 
 - Ubuntu 15,
 - Windows 10,
