@@ -13,8 +13,9 @@ Also im not familiar with using GIT HUB, I come from a Team Foundation Server ba
 
 I choose Pycharm EDU Edition as my IDE.
 I have run used the following Operating Systems just to see what differs here with developing in Python
-Ubuntu 15
-Windows 10
+
+Ubuntu 15,
+Windows 10,
 Mac OSX 
 
 For the SHA3 Encoding task i used pysha3 0.3
