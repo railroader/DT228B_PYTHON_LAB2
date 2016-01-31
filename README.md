@@ -23,8 +23,10 @@ Available here [https://pypi.python.org/pypi/pysha3/]
 
 I installed it via an executable on windows and I also installed it via the terminal on the Linux based OS's
 
+###### Installing library
 Navigate to downloaded files in terminal
-'sudo python setup.py install'
+
+Run in terminal 'sudo python setup.py install'
 
 
 Then add the pysha3 library as an external reference in PyCharm and its ready to use or you can copy the _sha3 folder into you project.
