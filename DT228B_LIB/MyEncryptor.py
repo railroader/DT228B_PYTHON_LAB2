@@ -23,7 +23,7 @@ class MyEncryptor():
 # OTHERWISE IT TREATS THE ARGUMENT AS A FILE AND SHA1 ENCODES THE FILE
 
 	def sha1Encode(self,text):
-		if not os.path.isfile(text):
+		if not os.path.isfile(str(text)):
 			if not text:
 				return "No String passed to method"
 			else:
@@ -42,7 +42,7 @@ class MyEncryptor():
 
 
 	def sha256Encode(self,text):
-		if not os.path.isfile(text):
+		if not os.path.isfile(str(text)):
 			if not text:
 				return "No String passed to method"
 			else:
@@ -63,7 +63,7 @@ class MyEncryptor():
 			return(hasher.hexdigest())
 
 	def sha512Encode(self,text):
-		if not os.path.isfile(text):
+		if not os.path.isfile(str(text)):
 			if not text:
 				return "No String passed to method"
 			else:
@@ -81,7 +81,7 @@ class MyEncryptor():
 			return(hasher.hexdigest())
 
 	def sha3Encode(self,text):
-		if not os.path.isfile(text):
+		if not os.path.isfile(str(text)):
 			if not text:
 				return "No String passed to method"
 			else:
