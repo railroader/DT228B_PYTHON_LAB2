@@ -30,3 +30,14 @@ Navigate to downloaded files in terminal
 
 Then add the pysha3 library as an external reference in PyCharm and its ready to use or you can copy the _sha3 folder into you project.
 Located : pysha3-0.3\Modules
+
+__________________________________________________________
+
+Project is a console application containing 1 class called MyEncryptor.py
+This class contains the various methods required
+Located in DT228B_PYTHON_LAB2/DT228B_LIB/MyEncryptor.py
+
+The project also contains a sample text file called sample_file_for_lab2.txt
+
+Finally its all called from a file in the root of the project called Main.py
+
