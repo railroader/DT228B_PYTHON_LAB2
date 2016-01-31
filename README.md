@@ -21,8 +21,7 @@ Mac OSX
 For the SHA3 Encoding task i used pysha3 0.3
 Available here https://pypi.python.org/pypi/pysha3/
 
-I installed it via an executable on windows
-I installed it via the terminal on the Linux based OS's
+I installed it via an executable on windows and I also installed it via the terminal on the Linux based OS's
 
 Navigate to downloaded files in terminal
 #sudo python setup.py install
