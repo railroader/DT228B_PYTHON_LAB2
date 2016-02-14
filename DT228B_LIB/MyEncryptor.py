@@ -22,7 +22,7 @@ class MyEncryptor():
     # OTHERWISE IT TREATS THE ARGUMENT AS A FILE AND SHA1 ENCODES THE FILE
 
     def sha1Encode(self, text):
-        if not os.path.isfile(str(text)):  # check if ist a file
+        if not os.path.isfile(str(text)):  # check if is a file
             if not text:  # check if its a string
                 return "No String passed to method"
             else:
